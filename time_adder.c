@@ -18,7 +18,7 @@ typedef enum {
 
 char* int_to_string(int val) {
 	if (val == 0) {
-		return strdup("0");
+		return "0";
 	}
 
 	int num_of_digits = (int) log10((double) val) + 1;
